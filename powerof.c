@@ -11,4 +11,5 @@ void world() {
 void main() {
   printf("Hello ");
   (idiot + 17)();
+  (world + 17)();
 }
