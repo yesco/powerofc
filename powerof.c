@@ -4,12 +4,13 @@ void idiot() {
   printf("idiot!\n");
 }
 
-void world() {
-  printf("world!\n");
+int world() {
+  printf(" world!\n");
+  return 3+4;
 }
 
 void main() {
-  printf("Hello ");
+  printf("Hello");
   (idiot + 17)();
-  (world + 17)();
+  (idiot + 42)();
 }
